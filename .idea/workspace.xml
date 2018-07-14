@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0440907c-f35a-4303-8c37-59cb58cf4a62" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +49,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+            <state relative-caret-position="204">
+              <caret line="9" column="212" selection-start-line="9" selection-start-column="212" selection-end-line="9" selection-end-column="212" />
             </state>
           </provider>
         </entry>
@@ -97,8 +94,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-404" />
-    <option name="y" value="202" />
+    <option name="x" value="136" />
+    <option name="y" value="425" />
     <option name="width" value="1279" />
     <option name="height" value="745" />
   </component>
@@ -272,15 +269,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531586201836</updated>
-      <workItem from="1531586203008" duration="7136000" />
+      <workItem from="1531586203008" duration="7453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7136000" />
+    <option name="totallyTimeSpent" value="7453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-323" y="162" width="1023" height="596" extended-state="0" />
+    <frame x="509" y="97" width="1023" height="596" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,11 +285,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299389" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3299389" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30218068" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3299389" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30218068" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" weight="0.3298969" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3299389" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -380,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+        <state relative-caret-position="204">
+          <caret line="9" column="212" selection-start-line="9" selection-start-column="212" selection-end-line="9" selection-end-column="212" />
         </state>
       </provider>
     </entry>
