@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0440907c-f35a-4303-8c37-59cb58cf4a62" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/authors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/partials/_sidebar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/_sidebar.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/publishers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/publishers_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/authors/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/authors/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/publishers/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/publishers/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/publishers/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/publishers/index.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,38 +37,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="books_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
+      <file leaf-file-name="categories_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="62">
+              <caret line="17" selection-start-line="17" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/books/new.html.erb">
+      <file leaf-file-name="authors_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/authors_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="62">
+              <caret line="17" selection-start-line="17" selection-end-line="41" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/publishers/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="11" column="115" selection-start-line="11" selection-start-column="115" selection-end-line="11" selection-end-column="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publishers_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/publishers_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/books/edit.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/publishers/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="147">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/books/show.html.erb">
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state>
+              <caret selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -85,22 +125,28 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/models/book.rb" />
         <option value="$PROJECT_DIR$/app/models/category.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/categories/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/authors_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/authors/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/author.rb" />
         <option value="$PROJECT_DIR$/app/models/publisher.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/publishers_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/publishers/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/books/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/books/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/partials/_sidebar.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/categories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/books/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/books/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/books_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/categories/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/categories/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/authors_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/authors/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/publishers/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/authors/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/publishers/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/publishers_controller.rb" />
       </list>
     </option>
   </component>
@@ -116,9 +162,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-573" />
-    <option name="y" value="532" />
-    <option name="width" value="1280" />
+    <option name="x" value="-98" />
+    <option name="y" value="585" />
+    <option name="width" value="1698" />
     <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -127,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -190,6 +237,13 @@
               <item name="eiland_bookstore_2018" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eiland_bookstore_2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eiland_bookstore_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="categories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,11 +262,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="edit&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/books/edit.html.erb&#10;new&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/books/new.html.erb&#10;books&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/books_controller.rb&#10;show&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/books/show.html.erb&#10;inde&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/books/index.html.erb&#10;show.&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/categories/show.html.erb&#10;cate&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/categories_controller.rb&#10;_side&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/partials/_sidebar.html.erb&#10;books_&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/books_controller.rb&#10;index&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/books/index.html.erb&#10;publisher.&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/models/publisher.rb&#10;author.rb&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/models/author.rb&#10;appli&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/layouts/application.html.erb&#10;category&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/models/category.rb&#10;book&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/books_controller.rb&#10;publi&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/publishers_controller.rb&#10;author&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/authors_controller.rb&#10;categor&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/categories_controller.rb&#10;publish&#9;null&#9;null&#10;catego&#9;null&#9;null&#10;authors&#9;null&#9;null&#10;application.scs&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/assets/stylesheets/application.scss&#10;data&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/config/database.yml&#10;abou&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/about_controller.rb&#10;_sidebar&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/partials/_sidebar.html.erb&#10;sideb&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/partials/_sidebar.html.erb&#10;about&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/about_controller.rb&#10;application.scss&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/assets/stylesheets/application.scss&#10;application.html&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/layouts/application.html.erb&#10;about_con&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/about_controller.rb" />
+    <property name="SearchEverywhereHistoryKey" value="publ&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/publishers_controller.rb&#10;index&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/publishers/index.html.erb&#10;edit&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/publishers/edit.html.erb&#10;cate&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/categories_controller.rb&#10;authors&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/authors_controller.rb&#10;books&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/books_controller.rb&#10;new&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/categories/new.html.erb&#10;boo&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/books_controller.rb&#10;categories contro&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/categories_controller.rb&#10;applic&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/layouts/application.html.erb&#10;show&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/books/show.html.erb&#10;inde&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/books/index.html.erb&#10;show.&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/categories/show.html.erb&#10;_side&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/partials/_sidebar.html.erb&#10;books_&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/books_controller.rb&#10;publisher.&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/models/publisher.rb&#10;author.rb&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/models/author.rb&#10;appli&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/layouts/application.html.erb&#10;category&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/models/category.rb&#10;book&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/books_controller.rb&#10;publi&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/publishers_controller.rb&#10;author&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/authors_controller.rb&#10;categor&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/categories_controller.rb&#10;publish&#9;null&#9;null&#10;catego&#9;null&#9;null&#10;application.scs&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/assets/stylesheets/application.scss&#10;data&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/config/database.yml&#10;abou&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/about_controller.rb&#10;_sidebar&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/partials/_sidebar.html.erb&#10;sideb&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/partials/_sidebar.html.erb&#10;about&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/about_controller.rb&#10;application.scss&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/assets/stylesheets/application.scss&#10;application.html&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/views/layouts/application.html.erb&#10;about_con&#9;FILE&#9;file://C:/develop/eiland_bookstore_2018/app/controllers/about_controller.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -343,18 +396,20 @@
       <workItem from="1536270291167" duration="8038000" />
       <workItem from="1536707894498" duration="1057000" />
       <workItem from="1536712684715" duration="1602000" />
-      <workItem from="1536774943398" duration="1500000" />
+      <workItem from="1536774943398" duration="1772000" />
+      <workItem from="1536800008876" duration="573000" />
+      <workItem from="1536863772021" duration="2530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38174000" />
+    <option name="totallyTimeSpent" value="41549000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-458" y="426" width="1024" height="564" extended-state="0" />
+    <frame x="-78" y="468" width="1358" height="564" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45020747" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34976888" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -382,55 +437,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -559,24 +565,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Program-Files (2).zip/Program Files/bookstore/app/views/books/new.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/category.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/authors_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -594,24 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/categories/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/publisher.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/publishers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -635,13 +613,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/images/covers/ajax_on_rails.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/categories/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -663,19 +634,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/books/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/books/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="67" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/books/destroy.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/books/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,10 +651,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/books/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="17" selection-start-line="17" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publishers/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/authors/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/authors/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/authors_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="17" selection-start-line="17" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/publishers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/publishers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="11" column="115" selection-start-line="11" selection-start-column="115" selection-end-line="11" selection-end-column="115" />
         </state>
       </provider>
     </entry>
